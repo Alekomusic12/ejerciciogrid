@@ -1,136 +1,153 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: Arial, Helvetica, Sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: Arial, Helvetica, Sans-serif;
 
 }
-.miNavBar{
-    background: #000000;
-    background-image: center ;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-background-attachment: fixed;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 50px;
+
+.miNavBar {
+  background: #000000;
+  background-image: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
 }
 
-.bigBox{
-    display: grid;
-  grid-template-columns: repeat(2, 1fr);
+.bigBox {
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
+
+
 .one {
-    grid-column: 1 / 2;
-    grid-row: 1;
-    gap: 35px;
-    border: 1px solid #000000;
-    border-radius: 2px #000000;;
-  }
-  
-  .two {
-    grid-column: 2 / 3;
-    grid-row: 1 ;
-    border: 1px solid #000000;
-    border-radius: 2px #000000;;
-  }
-  .three {
-    grid-column: 1/2;
-    grid-row: 2 ;
-    gap: 35px;
-    border: 1px solid #000000;
-    border-radius: 2px #000000;;
-  }
-  
-  .four {
-    grid-column: 2/3;
-    grid-row: 2;
-    gap: 35px;
-    border: 1px solid #000000;
-    border-radius: 8px #000000;;
-  }
-  
-  .five {
-    grid-column: 1/2;
-    grid-row: 3;
-    gap: 35px;
-    border: 1px solid #000000;
-    border-radius: 8px #000000;;
-  }
-  
-  .six {
-    grid-column: 2/3;
-    grid-row: 3;
-    gap: 35px;
-    border: 1px solid #000000;
-    border-radius: 8px #000000;;
-  }
-  
-  .seven {
-    grid-column: 1/2;
-    grid-row: 4;
-    border: 4px solid #000000;
-    border-radius: 8px #000000;;
-  }
-  
-  .eight {
-    grid-column: 3 / 4;
-    grid-row: 1;
-    border: 1px solid #000000;
-    border-radius: 8px #000000;;
-  }
-  
-.piePagina{
-    background: #000000;
-    background-image: url(https://img5.goodfon.com/wallpaper/nbig/6/2f/mstiteli-voina-beskonechnosti-avengers-infinity-war-komiks-1.jpg) ;
-    height:200px;
-    margin-top: 150px;
+  grid-column: 1 / 2;
+  grid-row: 1;
+  gap: 35px;
+  border: 1px solid #000000;
+  border-radius: 2px #000000;
+  ;
+}
+
+.two {
+  grid-column: 2 / 3;
+  grid-row: 1;
+  border: 1px solid #000000;
+  border-radius: 2px #000000;
+  ;
+}
+
+.three {
+  grid-column: 1/2;
+  grid-row: 2;
+  gap: 35px;
+  border: 1px solid #000000;
+  border-radius: 2px #000000;
+  ;
+}
+
+.four {
+  grid-column: 2/3;
+  grid-row: 2;
+  gap: 35px;
+  border: 1px solid #000000;
+  border-radius: 8px #000000;
+  ;
+}
+
+.five {
+  grid-column: 1/2;
+  grid-row: 3;
+  gap: 35px;
+  border: 1px solid #000000;
+  border-radius: 8px #000000;
+  ;
+}
+
+.six {
+  grid-column: 2/3;
+  grid-row: 3;
+  gap: 35px;
+  border: 1px solid #000000;
+  border-radius: 8px #000000;
+  ;
+}
+
+.seven {
+  grid-column: 1/2;
+  grid-row: 4;
+  border: 4px solid #000000;
+  border-radius: 8px #000000;
+  ;
+}
+
+.eight {
+  grid-column: 3 / 4;
+  grid-row: 1;
+  border: 1px solid #000000;
+  border-radius: 8px #000000;
+  ;
+}
+
+.piePagina {
+  background: #000000;
+  background-image: url(https://img5.goodfon.com/wallpaper/nbig/6/2f/mstiteli-voina-beskonechnosti-avengers-infinity-war-komiks-1.jpg);
+  height: 200px;
+  margin-top: 150px;
 
 }
+
 .estiloOpciones {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-.estiloOpciones li  {
-    display: inline;}
+.estiloOpciones li {
+  display: inline;
+}
 
-   
 
-    .estiloOpciones li button, #botonSesion{
-    width: 160px;
-    background: #000000;
-    color: aliceblue;
-    font-weight: bold;
-    padding: 15px;
-    white-space: nowrap;
-    border: none;
-    cursor: help;
-    
-    }
-    #botonSesion{
-        width: 250px;
-        color: blue; 
-        border-radius: 15px;
-        margin: 15px;
-    
-    }
-  
+
+.estiloOpciones li button, #botonSesion {
+  width: 160px;
+  background: #000000;
+  color: aliceblue;
+  font-weight: bold;
+  padding: 15px;
+  white-space: nowrap;
+  border: none;
+  cursor: help;
+
+}
+
+#botonSesion {
+  width: 250px;
+  color: blue;
+  border-radius: 15px;
+  margin: 15px;
+
+}
+
 .texto1 {
-    text-align: left;
-    margin: 5 150px;
+  text-align: left;
+  margin: 5 150px;
 }
 
 .texto2 {
-    text-align: left;
-    margin: 5 150px;
-    text-anchor: 40px;
-    color: #000000;
+  text-align: left;
+  margin: 5 150px;
+  text-anchor: 40px;
+  color: #000000;
 }
 
 .imgslider {
-    width: 100%;
+  width: 100%;
 }
+
+

@@ -18,6 +18,16 @@
   align-items: center;
   padding: 50px;
 }
+@media (max-width: 800px) {
+.miNavBar {
+  display: ;
+}
+.botonBurguer {
+  background: transparent;
+  border: 1px solid rgb(185, 185, 185);
+  display: block;
+}
+}
 
 .bigBox {
   display: grid;
@@ -151,3 +161,6 @@
 }
 
 
+body {
+  font-family: sans-serif;
+}
